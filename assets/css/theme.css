@@ -17621,12 +17621,17 @@ font-family: 'Caveat', cursive;
 
 #full-video{
   position: fixed;
-  opacity: 50%;
   min-width: 50%;
   min-height: 50%;
   right: 0;
   bottom: 0;
 
+}
+
+@media(max-width: 768px){
+  .bg-mask{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+  }
 }
 
 
