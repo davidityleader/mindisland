@@ -17615,4 +17615,19 @@ label {
 |   User Styles
 -----------------------------------------------*/
 
+.cursive {
+font-family: 'Caveat', cursive;
+}
+
+#full-video{
+  position: fixed;
+  opacity: 50%;
+  min-width: 50%;
+  min-height: 50%;
+  right: 0;
+  bottom: 0;
+
+}
+
+
 /*# sourceMappingURL=theme.css.map */
